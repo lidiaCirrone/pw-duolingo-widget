@@ -46,7 +46,7 @@ if (!function_exists('duolingo_shortcode')) {
       ob_start();
 ?>
       <div class="card">
-         <div class="card-body small">
+         <div class="card-body">
             <h5 class="card-title mb-3">
                <img src="<?php echo $duo_user->picture . "/xlarge"; ?>" class="img-fluid rounded-circle w-20 me-2" alt="avatar">
                <a href="https://www.duolingo.com/lidiaCirrone" target="_href"><?php echo $duo_user->username; ?></a>
